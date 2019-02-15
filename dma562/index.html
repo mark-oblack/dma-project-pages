@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+
+    <title>JMA 308 | 545 Interface Design</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <!-- Animate CSS -->
+    <link href="dist/css/animate.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+      <style>
+
+        @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Roboto:400,500,700');
+
+        body {
+          background-color: #efefef;
+          color: #4b4b4b;
+          font-family: 'Roboto', serif;
+          font-weight: 400;
+          font-size: 16px;
+        }
+
+        h1 {
+          font-family: 'Roboto Slab', serif;
+          font-weight: 400;
+          text-shadow: 2px 2px rgba(0,0,0,0.2);
+        }
+
+        .jumbotron {
+          /*background-color: #4b4b4b;*/
+          background-color: #0f9bce;
+          background-image: linear-gradient(0deg, #0f9bce 0%, #1cde84 100%);
+          color: #efefef;
+          display: flex;
+          align-content: center;
+          align-items: center;
+          height: 95vh;
+          text-align: center;
+        }
+
+        .headline {
+          margin: 0 auto;
+          height: auto;
+        }
+
+        .headline h2 {
+          text-shadow: 2px 2px rgba(0,0,0,0.2);
+        }
+
+        .navbar, #footer {
+          /*background-color: #0984e3;*/
+          background-color: #4b4b4b;;
+        }
+
+        .icon-bar {
+          background-color: #efefef;
+        }
+
+        .navbar .navbar-nav li a, .navbar-brand {
+          color: #efefef;
+        }
+
+        .navbar-brand:hover,
+        .navbar-nav li a:hover {
+          background-color: #efefef!important;
+          color: #4b4b4b!important;
+        }
+
+        .navbar-brand {
+          font-weight: 500;
+        }
+
+        .text-muted {
+          color: #efefef;
+        }
+
+        ul.dropdown-menu li a {
+          color: #000000!important;
+        }
+
+        li.active a {
+          font-weight: 500;
+        }
+
+        .main-content {
+          display: block;
+          margin: 0 auto;
+          padding-bottom: 1em;
+          width: 90%;
+        }
+
+        #footer {
+          color: #efefef;
+          text-align: center;
+        }
+
+        #footer .container {
+          background-color: #4b4b4b;
+        }
+
+        #footer a {
+          color: #efefef;
+          text-decoration: none;
+        }
+
+        #footer a:hover {
+          opacity: 0.7;
+        }
+
+      </style> 
+    </head>
+
+    <body>
+
+      <!-- Fixed navbar -->
+      <div class="navbar navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Mark O'Black</a>
+          </div>
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <!-- <li class="active"><a href="#">Home</a></li> -->
+              <li><a href="#about">Course Summary</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#links">Links</a></li>
+              <!-- <li><a href="#contact">Contact</a></li> -->
+              <!-- <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+
+      <!-- Begin page content -->
+      <div>
+        <!-- <div class="jumbotron jumbotron-fluid">
+          <img src="assets/img/river-scene.JPG" alt="River at Cucumber Falls">
+        </div> -->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="headline">
+            <h1 class="animated bounceIn">Mark O'Black</h1>
+            <h2 class="animated bounceIn delay-1s">DMA 545: Interface Design I</h2>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="page-header">
+        <h1>Mark O'Black | UI Design</h1>
+      </div> -->
+      <section class="main-content">
+        <section>
+          <h2>Course Summary</h2>
+          <p id="about">The overall goal of this course is to explore interface design concepts and to use associated principles in the development of digital interfaces.  In the course, we examine major user interface design principles and processes such as information architecture, navigation, prototyping, user-center design, and usability. A primary focus of the course is usability, which encompasses methods to identify what is or is not working on an interface. </p>
+        </section>
+        <section>
+          <h2 id="projects">Projects</h2>
+          <h3>Project 1: OCR Application Interface</h3>
+          <ul>
+            <li><a href="https://xd.adobe.com/view/7d66e37b-90f4-42cf-44e2-84ad9ca56605-0b57/?fullscreen" target="_blank">Sphinx Prototype</a></li>
+            <li><a href="assets/files/sphinx-ui-report-oblackm.pdf" target="_blank">Sphinx Research Report</a></li>
+          </ul>
+          <h3>Project 2: College Application UI</h3>
+          <ul>
+            <li><a href="https://xd.adobe.com/view/cf45a35e-f977-4575-6238-f51e37aad678-b974/" target="_blank">Usearch Prototype (high school student team)</a></li>
+            <li><a href="assets/files/usearch-ui-research-report.pdf" target="_blank">Usearch Research Report</a></li>
+          </ul>
+          <h3>Project 3: Online Clothing Store</h3>
+          <ul>
+            <li><a href="https://xd.adobe.com/view/3ee95b61-53d1-4ecd-74c8-a98e2a4c5adc-48d8/" target="_blank">Flint Clothing Prototype</a></li>
+            <li><a href="assets/files/flint-clothing-research-report.pdf" target="_blank">Flint Clothing Research Report</a></li>
+          </ul>
+          <h3>Project 4:American Eagle Outfitters App</h3>
+          <ul>
+            <li><a href="https://xd.adobe.com/view/b590adb0-7344-4156-54f3-3052cee7336f-c3a1/" target="_blank">AEO Closet and True Fit Prototype</a></li>
+            <li><a href="https://markoblack.com/aeo-project" target="_blank">AEO Closet and True Fit Project Files</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2 id="links">Useful links</h2>
+          <ul>
+            <li><a href="http://uxmag.com/">UX Mag</a></li>
+            <li><a href="http://uxpa.org/">UXPA</a></li>
+          </ul>
+        </section>
+      <!-- <p>&copy;2018 Mark O'Black, <a href="mailto:oblackm.edu">oblackm@duq.edu</a></p> -->
+      <!-- <p>Back to <a href="file:///Z|/pub/sticky-footer">the default sticky footer</a> minus the navbar.</p> -->
+      </section>
+      <div id="footer">
+        <div class="container">
+          <p class="text-muted">&copy;2018 Mark O'Black &vert; <a href="mailto:oblackm.edu">oblackm@duq.edu</a> &vert; <a href="https://www.markoblack.com" target="_blank">markoblack.com</a></p>
+        </div>
+      </div>
+
+      <!-- Bootstrap core JavaScript
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="dist/js/bootstrap.min.js"></script>
+    </body>
+</html>
+

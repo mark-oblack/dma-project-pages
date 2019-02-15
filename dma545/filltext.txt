@@ -1,0 +1,29 @@
+JMA 308 | 545 Interface Design
+
+Interface Design
+
+Interface Design | Your name 
+
+
+A user interface is a means through which humans communicate with machines.
+
+
+    The overall goal of this course is to explore interface design concepts and to use associated principles in the development of digital interfaces.  In the course, we examine major user interface design principles and processes such as information architecture, navigation, prototyping, user-center design, and usability. A primary focus of the course is usability, which encompasses methods to identify what is or is not working on an interface. 
+
+Projects
+
+Project 1
+Project 2
+Project 3
+Project 4
+Project 5
+Project 6
+Project 7
+Project 8
+Project 9
+Project 10
+Useful links
+http://uxmag.com/
+http://uxpa.org/
+
+&copy; 2018 Your name, <a href="mailto:email.edu">Your Email</a>
