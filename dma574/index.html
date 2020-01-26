@@ -2,65 +2,100 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mark O'Black | DMA 574</title>
+    <link rel='icon' href='assets/mo-logo-favicon.png' type='image/x-icon'/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
-
-<style>
-    section {
-        width: 98%;
-        position: relative;
-        margin: 0 auto;
-        padding: 5px 1%;
-    }
-
-    li {
-        margin-bottom: 10px;
-    }
-
-    #button a:link,
-    #button a:hover,
-    #button a:visited,
-    #button a:active {
-        display: block;
-        width: 150px;
-        text-align: center;
-        padding: 10px 0;
-        margin-top: 40px;
-        text-decoration: none;
-        color: #fff;
-    }
-
-    #button a:link {
-        background-color: #0984e3;
-    }
-
-    #button a:hover {
-        background-color: #74b9ff;
-        transition: 0.5s ease-in-out;
-    }
-    
-</style>
-
 <body>
-    <section>
-        <h1>Mark O'Black's DMA 574 Portfolio</h1>
-        <p>I am a graduate student in the MFA Interactive Design program. I enjoy running, reading, writing, and learning about design.</p>
-        <ul>
-            <li><a href="assignments/#">Assignment 1</a></li>
-            <li><a href="assignments/#">Assignment 2</a></li>
-            <li><a href="assignments/#">Assignment 3</a></li>
-            <li><a href="assignments/#">Assignment 4</a></li>
-            <li><a href="assignments/#">Assignment 5</a></li>
-            <li><a href="assignments/#">Assignment 6</a></li>
-            <li><a href="assignments/#">Assignment 7</a></li>
-            <li><a href="assignments/#">Assignment 8</a></li>
-            <li><a href="assignments/#">Assignment 9</a></li>
-            <li><a href="assignments/#">Assignment 10</a></li>
-            <li><a href="assignments/#">Assignment 11</a></li>
-        </ul>
-        <div id="button">
-            <a href="http://www.jma.duq.edu/users/kolberl/pub/dma574/">Go to Class Page</a>
+    <section id="wrapper">
+        <header>
+            <nav class="topnav" id="myTopnav">
+                <a href="index">
+                    <h1>Mark O&#8217;Black</h1>
+                </a>
+                <div class="topnav-items" id="myTopnavItems">
+                    <a href="#about">About</a>
+                    <a href="#assignments">Assignments</a>
+                    <a href="#assignments">Course Page</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="responsiveNav()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </nav>
+        </header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="headline">
+                <h1 class="animated bounceIDown">Mark O'Black</h1>
+                <h2 class="animated bounceInDown delay-1s">DMA 574: Interactive Design Studio</h2>
+            </div>
+            <i class="fas fa-arrow-down fa-2x animated bounceInDown delay-2s" aria-hidden="true"></i>
         </div>
-    </section>
+        <section id="main-content">
+            <h2 class="page-title" id="about">About</h2>
+            <p>Hi, I'm Mark! I am a graduate student in the MFA Interactive Design program. I also work at Duquesne University as a Communications Specialist with Computing and Technology Services (CTS).</p>
+            <p>Outside of class and work, I enjoy running, reading, writing, and learning about design. My goal is to pursue a career in UX or communications.</p>
+            <h2 class="page-title" id="assignments">Assignments</h2>
+            <section class="assignment-card-container">
+                <a class="assignment-card yellow" href="assignments/assignment01-presentation-ver2.pdf">
+                    <div>
+                        <h3>Assignment 1</h3>
+                        <p>Design Topic Research</p>
+                    </div>
+                </a>
+                <a class="assignment-card turqoise" href="assignments/assignment01.pdf">
+                    <div>
+                        <h3>Assignment 2</h3>
+                        <p>Company Research</p>
+                    </div>
+                </a>
+                <a class="assignment-card green" href="#">
+                    <div>
+                        <h3>Assignment 3</h3>
+                        <p>Description</p>
+                    </div>
+                </a>
+                <a class="assignment-card purple" href="#">
+                    <div>
+                        <h3>Assignment 4</h3>
+                        <p>Description</p>
+                    </div>
+                </a>
+                <a class="assignment-card blue" href="#">
+                    <div>
+                        <h3>Assignment 5</h3>
+                        <p>Description</p>
+                    </div>
+                </a>
+                <a class="assignment-card red" href="#">
+                    <div>
+                        <h3>Assignment 6</h3>
+                        <p>Description</p>
+                    </div>
+                </a>
+            </section> <!--web card container-->
+            <div id="button">
+                <a href="http://www.jma.duq.edu/users/kolberl/pub/dma574/">Go to Class Page</a>
+            </div>
+            <footer>
+                <p>&copy; 2020 Mark E. O&#8217;Black</p>
+            </footer>
+        </section> <!--main-content-->
+        <script>
+            function responsiveNav() {
+                var x = document.getElementById("myTopnav");
+                var y =document.getElementById("myTopnavItems");
+                if (x.className === "topnav" && y.className === "topnav-items") {
+                x.className += " responsive";
+                y.className += " responsive";
+                } else {
+                x.className = "topnav";
+                y.className = "topnav-items";
+                }
+            }
+        </script>
 </body>
 </html>
