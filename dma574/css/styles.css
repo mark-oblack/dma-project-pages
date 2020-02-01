@@ -162,7 +162,7 @@ Jumbotron
 .jumbotron {
     /* background-color: #21D4FD;
 	background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%); */
-	background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)), center / cover no-repeat url(../assets/admin-bldg-winter02.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), center / cover no-repeat url(../assets/admin-bldg-winter02.jpg);
     color: #efefef;
     display: flex;
     flex-direction: column;
@@ -226,6 +226,7 @@ Assignment Cards
 .assignment-card h3 {
 	color: #fff;
 	font-size: 1.5em;
+	font-weight: 600;
 	margin: 20px 0;
 	text-align: center;
 }
@@ -240,30 +241,6 @@ Assignment Cards
 	background-color: #fa8231;
 	transition: 0.3s ease;
 }
-
-/* .yellow {
-	background-color: #f7b731;
-}
-
-.turqoise {
-	background-color: #0fb9b1;
-}
-
-.purple {
-	background-color: #a55eea;
-}
-
-.green {
-	background-color: #20bf6b;
-}
-
-.blue {
-	background-color: #0984e3;
-}
-
-.red {
-	background-color: #d63031;
-} */
 
 @media all and (min-width: 501px){
 	.assignment-card {
